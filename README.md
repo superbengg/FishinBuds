@@ -5,8 +5,17 @@
 Fishin' Buds is a World of Warcraft fishing companion intended to make fishing
 in Azeroth feel social—even when you're fishing alone.
 
+**Fishin' Buds is an early-development Retail WoW prototype, actively being
+tested.** Friends, guildmates, testers, and interested anglers are welcome to
+follow along.
+
 **v0.2.1 — Consumables & Project Cleanup** supports Retail 12.1 (interface
 120100), with fishing instrumentation and local catch/record tracking.
+
+The current Gnomish Field Communicator opens automatically while fishing and
+shows fishing skill/effective skill, lures, Perception consumables, and Relaxed
+Tea. It tracks sessions, casts, catches, personal history and records, with a
+local Feed for rare catches and noteworthy journal improvements.
 
 The long-term identity is **fishing utility + an in-game social fishing feed
 presented through an Azeroth-style Gnomish/Goblin communicator**. The social
@@ -24,6 +33,9 @@ Feed is central; this should not become merely a statistics or tournament addon.
 
 All activity is currently local. Future posts may have a small fixed set of
 reactions, but **no in-game comments**. See [design and roadmap](DESIGN_ROADMAP.md).
+**Buds and social sharing are planned, not implemented.** The longer-term idea
+is an asynchronous fishing experience with Buds, catches, records, Trophy
+moments, and lightweight reactions.
 
 ## Install and use
 
@@ -78,3 +90,7 @@ folder. Historical milestones are documented, not fabricated as Git tags.
 
 [Architecture](ARCHITECTURE.md) · [Version history](CHANGELOG.md) ·
 [Design and roadmap](DESIGN_ROADMAP.md)
+
+## License
+
+Fishin' Buds source is available under the [MIT License](LICENSE).

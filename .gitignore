@@ -1,6 +1,7 @@
 # WoW account and runtime data (never the addon source)
 WTF/
 SavedVariables/
+Account/
 FishinBudsDB.lua
 FishinBudsDB.lua.bak
 *.lua.bak
@@ -25,6 +26,11 @@ __pycache__/
 venv/
 test-tools/
 .pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+test-results/
+*.dmp
 .idea/
 .vscode/
 *.swp
@@ -35,6 +41,19 @@ test-tools/
 *.log
 .env
 .env.*
+# Local credentials and private key material (not addon configuration)
+secrets/
+credentials.json
+credentials.local.*
+*.local.json
+*.local.toml
+*.local.yaml
+*.local.yml
+*.pem
+*.key
+*.p12
+*.pfx
+.codex/
 Thumbs.db
 Desktop.ini
 .DS_Store
