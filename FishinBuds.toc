@@ -1,0 +1,18 @@
+## Interface: 120100
+## Title: Fishin' Buds
+## Notes: A little Gnomish communicator for your fishing adventures.
+## Author: Fishin' Buds
+## Version: 0.2.1
+## SavedVariables: FishinBudsDB
+## IconTexture: Interface\Icons\INV_Fishingpole_02
+
+Core.lua
+CatchDatabase.lua
+FishingEffects.lua
+RetailFishingProvider.lua
+Feed.lua
+FishingSession.lua
+UI.lua
+Settings.lua
+Celebration.lua
+Bootstrap.lua

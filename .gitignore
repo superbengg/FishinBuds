@@ -1,0 +1,40 @@
+# WoW account and runtime data (never the addon source)
+WTF/
+SavedVariables/
+FishinBudsDB.lua
+FishinBudsDB.lua.bak
+*.lua.bak
+Logs/
+Cache/
+Screenshots/
+
+# Local backups and release output
+backups/
+*_Backups/
+*.zip
+*.7z
+*.bak
+*.old
+dist/
+build/
+
+# Test/runtime and editor leftovers
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+test-tools/
+.pytest_cache/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+*.log
+.env
+.env.*
+Thumbs.db
+Desktop.ini
+.DS_Store
